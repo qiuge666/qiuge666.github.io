@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 公司首页图片 -->
+    <section id="home" class="section home">
+        <img src="images/yourimage.png" alt="公司图片" width="300" height="auto">
+        <h1>欢迎来到杭州拓感生物科技有限公司</h1>
+        <p>提供优质服务，助力您的事业发展。</p>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section about">
+        <h2>关于我们</h2>
+        <p>我们是一家专注于高质量服务的公司。我们的使命是为客户提供最优质的解决方案。</p>
+    </section>
+
+    <!-- 服务 -->
+    <section id="services" class="section services">
+        <h2>我们的服务</h2>
+        <ul>
+            <li>产品设计</li>
+            <li>市场营销</li>
+            <li>技术支持</li>
+        </ul>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section contact">
+        <h2>联系我们</h2>
+        <form action="#" method="post">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">邮箱：</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">留言：</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">提交</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 公司名称. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
